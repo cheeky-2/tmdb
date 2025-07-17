@@ -16,3 +16,5 @@
 1. `App.jsx` 이동경로가 변경 시 `MovieDetails.jsx` 이동하는 Router
 2. `MovieApp.jsx` 포스터 클릭 시 `MovieDetails.jsx` 이동경로 바꾸는 Link
 3. `MovieDetails.jsx` 영화정보를 보여주기 위한 api 설정과 DB 불러오기
+-----
+재업로드2
