@@ -25,6 +25,8 @@ jobs:
 
     - name: Build
       run: npm run build
+      env:
+        VITE_TMDB_API_KEY: ${{ secrets.VITE_TMDB_API_KEY }}
 
     #  빌드 결과물 확인용 로그
     - name: Check dist folder contents
