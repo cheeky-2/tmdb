@@ -26,6 +26,13 @@ jobs:
     - name: Build
       run: npm run build
 
+    #  빌드 결과물 확인용 로그
+    - name: Check dist folder contents
+      run: |
+        echo "=== DIST FOLDER CONTENTS ==="
+        ls -R dist || echo "dist 폴더가 없습니다."
+        echo "============================"
+
     - name: Upload artifacts
       uses: actions/upload-pages-artifact@v3
       with:
